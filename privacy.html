@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — 4o4 Esports Tournament Bot</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --card: #171a23;
+      --border: #262b38;
+      --text: #e6e9f0;
+      --muted: #9aa3b2;
+      --accent: #5865f2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 2rem 1rem 4rem;
+    }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 2.25rem 2.5rem;
+    }
+    h1 { margin-top: 0; font-size: 1.9rem; }
+    h2 { margin-top: 2rem; font-size: 1.2rem; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    p, li { color: var(--text); }
+    .meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 1.5rem; }
+    a { color: #7c8aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    nav { margin-bottom: 1.5rem; font-size: 0.92rem; display: flex; gap: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./terms.html">Terms of Service</a>
+      <a href="./privacy.html">Privacy Policy</a>
+    </nav>
+
+    <h1>Privacy Policy</h1>
+    <p class="meta"><strong>4o4 Esports Tournament Bot</strong> • Effective Date: November 20, 2026</p>
+
+    <p>
+      This Privacy Policy explains what data the <strong>4o4 Esports Tournament Bot</strong> ("the Bot") collects, how it is used, and how you can request deletion of your data.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+    <p>The Bot only collects the minimum data needed to run Discord tournaments synced with Start.gg:</p>
+    <ul>
+      <li><strong>Discord Identifiers:</strong> Discord User IDs, Server (Guild) IDs, Channel IDs, Thread IDs, and Message IDs needed to run match check-ins, announcements, and dispute threads.</li>
+      <li><strong>Player Profile Data (User-Provided or Synced):</strong> Start.gg gamerTags, Start.gg entrant/user IDs, and voluntary in-game identifiers (such as CFN / Capcom ID) submitted via <code>/settag</code> or <code>/link</code>.</li>
+      <li><strong>Tournament &amp; Match Records:</strong> Check-in timestamps, reported match scores, disqualification status, and dispute descriptions submitted through Bot commands or modals.</li>
+    </ul>
+    <p>
+      We do <strong>not</strong> collect private direct messages outside Bot interactions, passwords, payment details, or unrelated server chat history.
+    </p>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>Match your Discord account to your Start.gg bracket sets so opponents can find and invite you.</li>
+      <li>Manage round starts, check-in timers, automated DQs, and two-way score verification.</li>
+      <li>Sync verified match results back to Start.gg.</li>
+      <li>Notify Tournament Organizers when a player submits a match dispute or help request.</li>
+    </ul>
+
+    <h2>3. Data Sharing &amp; Third Parties</h2>
+    <p>
+      We do not sell, rent, or trade your personal information. Match results, check-in states, and dispute rulings are shared only with:
+    </p>
+    <ul>
+      <li><strong>Discord</strong> (to display match cards, threads, and announcements in participating tournament channels).</li>
+      <li><strong>Start.gg</strong> (to fetch bracket pairings and submit verified match outcomes for events you entered).</li>
+      <li><strong>Tournament Organizers</strong> of the Discord server hosting the event.</li>
+    </ul>
+
+    <h2>4. Data Storage &amp; Retention</h2>
+    <p>
+      Data is stored in a local SQLite database maintained by the Bot operator. Linked profile tags are retained to make future tournament check-ins faster; tournament match and dispute logs are retained for bracket verification and historical tournament records, or until deleted upon request.
+    </p>
+
+    <h2>5. Your Rights &amp; Data Deletion</h2>
+    <p>
+      You may update your stored in-game tag or Start.gg gamerTag at any time using <code>/settag</code> or <code>/link</code>. To request full deletion of your stored profile or tournament records from the Bot database, please contact a 4o4 Esports Tournament Organizer in Discord or submit a request via the Bot's GitHub repository. Verified deletion requests are processed within 30 days.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      The Bot is intended only for users who meet Discord's minimum age requirements (13+ or higher depending on local law). We do not knowingly collect personal information from children below Discord's minimum age.
+    </p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy periodically. Any updates will be posted on this page with an updated effective date.
+    </p>
+  </main>
+</body>
+</html>
